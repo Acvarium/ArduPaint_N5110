@@ -39,7 +39,7 @@
 
 
 
-//Icons that indicate the status of the drawing
+//Icons that indicate the status of drawing
 static const byte Symbols[][5] =
 {
    {0x00, 0x0A, 0x04, 0x0A, 0x00} // 46 Fly mode icon
@@ -55,7 +55,7 @@ byte screen_buffer[LCD_X][LCD_Y / 8];
 
 int A=2, B=3, C=4, D=5, E=6, F=7, K=8; //Buttons pin
 int buttonState = 0;
-int xPos,yPos;       //Variable that determine the position of the drawing cursor
+int xPos,yPos;       //Variables that determine the position of the drawing cursor
 int jX = 0, jY = 0;  //Variables that determine the value of the slope joystick
 byte pX = 0, pY = 0;
 
